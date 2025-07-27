@@ -7,5 +7,6 @@
 
 3. disable ConnectivityCheck
 
-   file： /etc/NetworkManager/NetworkManager.conf Read-only. 
-    busctl set-property org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager ConnectivityCheckEnable b false
+   file： /etc/NetworkManager/NetworkManager.conf Read-only.
+
+   busctl set-property org.freedesktop.NetworkManager /org/freedesktop/NetworkManager org.freedesktop.NetworkManager ConnectivityCheckEnable b false
